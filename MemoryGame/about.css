@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+*
+{
+  margin: 0;
+  padding: 0%;
+  font-family: "Josefin Sans", serif;
+  font-weight: 700;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smoot  
+}
+
+body {
+  background-color: #FFFFFF;
+  color: #F7EBEC;
+}
+
+#video-background {
+  position: fixed;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  min-width: 100%;
+  min-height: 100%;
+  width: 100%;
+  height: auto;
+  z-index: -1;
+}
+
+#about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    padding: 10px 10%;
+}
+
+#about p {
+    margin-top: 10px;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    color: #E8B55D;
+  }
+
+.decor1 {
+    margin-top: 5px;
+    height: auto;
+    width: 20rem;
+}
+
+.decor2 {
+    width: auto;
+    height: 30px;
+    margin-top: -7px;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+  
+.container{
+    margin-top: 10px;
+    padding: 10px 10%;
+}
+  
+  /* Styling for the navbar */
+  nav {
+    align-items: center;
+    background-color: #091428bd;
+    padding: 10px;
+  }
+  
+  /* Container for navbar content */
+  .navbar-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+  }
+  
+  .navbar-container .right-side {
+    display: flex;
+    align-items: center;
+  }
+  .navbar-container img {
+    height: 2.5rem;
+    width: auto;
+  }
+  
+  /* Navbar brand styling */
+  .navbar-brand {
+    align-self: center;
+    margin: 0;
+    font-size: 700;
+  }
+  
+  /* Navbar menu styling */
+  .navbar-menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+    margin-left: auto;
+  }
+  
+  /* Navbar link styling */
+  .navbar-menu li a {
+    color: white;
+    text-decoration: none;
+    font-size: large;
+  }
+
+.container h3, h2 {
+    color: #E8B55D;
+}
+
